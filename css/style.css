@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.balance{
+	text-align: center;
+	font-size: 30px;
+}
+.opening-line{
+	width: 1000px;
+	margin: auto;
+	height: 200px;
+	padding: 20px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 20px;
+	background-color: #efefef;
+}
+.winingline{
+	width: 10px;
+	height: 240px;
+	background-color: #232323;
+	position: absolute;
+	left: 510px;
+	bottom: 0px;
+	z-index: 1;
+}
+.item{
+	width: 200px;
+	height: 200px;
+	background: rgb(47,47,47);
+    background: linear-gradient(0deg, rgba(47,47,47,1) 0%, rgba(124,124,124,1) 52%, rgba(142,137,137,1) 100%);
+	position: absolute;
+	transition: left 5s ease-in-out;
+}
+.itemimg{
+	background-image: url("https://vignette.wikia.nocookie.net/counterstrike/images/3/3c/Negev.png/revision/latest?cb=20150703053522&path-prefix=ru");
+	-webkit-background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 80%;
+	width: 80%;
+	margin: auto;
+}
+.itemname{
+	color: #efefef;
+	text-align: center;
+	position: relative;
+	bottom: 10px;
+}
+.itemprice{
+	color: #a5a5a5;
+	text-align: center;
+	position: relative;
+	bottom: 10px;
+}
+.button{
+	width: 200px;
+	margin: auto;
+	margin-top: 40px;
+}
+button{
+	width: 200px;
+	height: 50px;
+	background-color: #565656;
+	color: #ff9500;
+	border: none;
+	outline: none;
+	font-size: 20px;
+}
